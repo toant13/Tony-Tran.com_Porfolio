@@ -1,0 +1,229 @@
+/* CSS Document */
+
+
+html{
+	min-height:100%;	
+	overflow-x: hidden;
+}
+
+body
+{
+	/*background-color:#363839;*/
+	background-color:#363839;
+	color:#FFF;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align:left;
+	min-height:100%;
+	overflow-x: hidden;
+}
+
+
+.container_16{
+	
+	/*background-color:#282a2b;363839*/
+	display:block;
+	min-height:100%;
+	min-height:100%;
+	
+	margin:0 auto;
+}
+
+
+#logo{
+	text-align:left;	
+	margin-top:.58em;
+	
+}
+
+#prescroll-header{
+	height:8.6em;
+	width:100%;
+	display:block;
+	background-color:#FFF;
+	padding:.5em 0 .5em 0;
+	border-bottom:10px solid #e9eaee;
+	
+	opacity:.95;
+	position:fixed;
+	z-index:9999;
+	
+}
+
+.container_16 img{
+	/*6abe28 4b4c4d*/
+	border:4px solid #4b4c4d;
+}
+
+#linkinicon{
+	display:inline-block;
+	background-image:url(../img/linkin_icon.png);
+	height:64px;
+	width:64px;
+	margin-top:40px;
+	text-indent: -3000px;
+}
+
+#linkinicon:hover{
+	display:block;
+	background-image:url(../img/linkin_icon_hover.png);
+	 	
+}
+
+.container_16 #intro img{
+	/*6abe28 4b4c4d*/
+	
+}
+
+.container_16 #intro{
+	background:url(../img/testbackground.png);
+	height:370px;
+	background-color:#01142c;
+}
+
+.container_16 #intro h1{
+	font-size:40px;
+	background-color:#6abe28;
+}
+
+.container_16 #intro a:hover{
+	background-color:#363839;
+}
+
+.container_16 #intro .content{
+	max-width:65%;
+	margin:0 auto;
+	padding-top:5.3em;
+}
+
+
+.experiencenav p{
+	font-size:15px;
+	font-family:"Noticia Text",'Advent Pro';
+	font-style:italic;
+}
+
+
+.container_16 .content{
+	max-width:65%;
+	margin:0 auto 8em auto;
+	padding-top:4em;
+	
+}
+
+#footer{
+	background-color:#282a2b;
+	height:10em;
+	border-top:1px solid #4b4c4d;
+}
+
+.content h2{
+	font-size:2.271em;	
+}
+
+a{
+	text-decoration:none;
+	color:#6abe28;
+	
+}
+
+a:hover{
+	
+	/*background-color:#f89b39; 00162f 6abe28*/
+	/*background-color:#FFF;*/
+	
+	
+	color:#6abe28;
+	background-color:#00162f;
+   
+}
+
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+
+.navlinks{
+	width:70%;	
+	display:block;
+	margin:0 auto;
+	color:#363839;
+	font-size:1.286em;
+	text-transform:uppercase;
+	font-weight:500;
+	font-family:'Advent Pro';
+}
+
+.navlinks .nav a{
+	display:inline;
+	color:#363839;
+	padding:0 0 .7em 0;
+}
+
+.navlinks .nav a:hover{
+	background-color:inherit;
+	color:#6abe28;
+	border-bottom:3px solid #6abe28;
+}
+
+
+ul{
+	list-style:none;
+	float:right;	
+}
+
+.navlinks li{
+	float:left;	
+	margin:0 0 0 3em;
+	line-height:6.7em;
+	
+}
+
+span {
+	/*style="color:#8C8989"*/
+	font-weight:200;
+	font-size:1.286em;
+	font-family:"Noticia Text",'Advent Pro';
+	font-style: italic;
+	color:#8C8989;
+
+	float:left;
+}
+
+p{
+
+	font-weight: 200;
+	font-size: 1.286em;
+	font-family: "Noticia Text",'Advent Pro';
+	color: #8C8989;
+	float: left;
+}
+
+
+h1, h2, h3, h4 {
+	/*style="color:#8C8989"*/
+	font-family:'Advent Pro';
+	color:#FFF;
+	margin-top:0;
+}
+
+h3{
+	font-size:30px;
+}
+
+.experiencenav h4{
+	font-size:20px;
+}
+
+.experiencenav{
+	margin-top:.5em;
+	margin-right:0px;
+}
+.content .col-lg-3{
+	padding-right:5px;
+}
+
+
+
+
